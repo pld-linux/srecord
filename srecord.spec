@@ -6,7 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		Development/Tools
 Source0:	http://srecord.sourceforge.net/%{name}-%{version}.tar.gz
-# Source0-md5:	bc5ff373c4ebdc4e7eee0c1a1a26c1af
+# Source0-md5:	fcca798d3cc3f186410b8ed0e1c2e793
 Patch0:		%{name}-man_fastload.patch
 URL:		http://srecord.sourceforge.net/
 BuildRequires:  bison
