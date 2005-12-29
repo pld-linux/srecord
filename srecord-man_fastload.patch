@@ -1,0 +1,8 @@
+--- srecord-1.23/man/man5/srec_fastload.5.orig	2005-09-23 11:53:22.000000000 +0200
++++ srecord-1.23/man/man5/srec_fastload.5	2005-12-29 17:13:34.000000000 +0100
+@@ -82,4 +82,4 @@
+ .RE
+ .\" ------------------------------------------------------------------------
+ .ds n) srec_cat
+-.so z_copyright.so
++.so ../man1/z_copyright.so
