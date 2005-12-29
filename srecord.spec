@@ -3,12 +3,13 @@ Summary(pl):	Operacje na plikach do programowania pamiêci (E)EPROM i Flash
 Name:		srecord
 Version:	1.23
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Development/Tools
 Source0:	http://srecord.sourceforge.net/%{name}-%{version}.tar.gz
-Patch0:		srecord-man_fastload.patch
+Patch0:		%{name}-man_fastload.patch
 URL:		http://srecord.sourceforge.net/
 BuildRequires:  bison
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -68,6 +69,7 @@ plików.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
@@ -76,7 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc LICENSE BUILDING README
+%doc BUILDING README
 %attr(755,root,root) %{_bindir}/srec_cat
 %attr(755,root,root) %{_bindir}/srec_cmp
 %attr(755,root,root) %{_bindir}/srec_info
