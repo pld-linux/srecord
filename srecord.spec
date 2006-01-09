@@ -57,7 +57,7 @@ programowania pamiêci (E)EPROM i Flash.
   wej¶ciowych na podzbiory.
 
 Dla ka¿dego pliku wej¶ciowego mo¿e byæ dodanych po kilka filtrów
-wej¶ciowych. Ka¿dy z filtrów mo¿e byæ stosowany do ka¿dego z foramtów
+wej¶ciowych. Ka¿dy z filtrów mo¿e byæ stosowany do ka¿dego z formatów
 plików.
 
 %prep
