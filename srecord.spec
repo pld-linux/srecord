@@ -1,5 +1,5 @@
 Summary:	Manipulate EPROM load files
-Summary(pl.UTF-8):   Operacje na plikach do programowania pamięci (E)EPROM i Flash
+Summary(pl.UTF-8):	Operacje na plikach do programowania pamięci (E)EPROM i Flash
 Name:		srecord
 Version:	1.23
 Release:	1
