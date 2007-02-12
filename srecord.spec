@@ -1,5 +1,5 @@
 Summary:	Manipulate EPROM load files
-Summary(pl):	Operacje na plikach do programowania pamiêci (E)EPROM i Flash
+Summary(pl.UTF-8):   Operacje na plikach do programowania pamiÄ™ci (E)EPROM i Flash
 Name:		srecord
 Version:	1.23
 Release:	1
@@ -36,29 +36,29 @@ More than one filter may be applied to each input file. Different
 filters may be applied to each input file. All filters may be applied
 to all file formats.
 
-%description -l pl
-Pakiet SRecord to zbiór narzêdzi do modyfikacji plików u¿ywanych do
-programowania pamiêci (E)EPROM i Flash.
+%description -l pl.UTF-8
+Pakiet SRecord to zbiÃ³r narzÄ™dzi do modyfikacji plikÃ³w uÅ¼ywanych do
+programowania pamiÄ™ci (E)EPROM i Flash.
 
-- Odczytywane i zapisywane s± pliki w nastêpuj±cych formatach:
+- Odczytywane i zapisywane sÄ… pliki w nastÄ™pujÄ…cych formatach:
   Motorola S-Record, Intel, Tektronix, Binary.
 
-- W pakiecie znajduj± siê nastêpuj±ce narzêdzia: srec_cat - do
-  kopiowania i konwersji plików, srec_cmp - do porównywania plików,
-  srec_info - do wy¶wietlania informacji o plikach.
+- W pakiecie znajdujÄ… siÄ™ nastÄ™pujÄ…ce narzÄ™dzia: srec_cat - do
+  kopiowania i konwersji plikÃ³w, srec_cmp - do porÃ³wnywania plikÃ³w,
+  srec_info - do wyÅ›wietlania informacji o plikach.
 
-- Dostêpne s± nastêpuj±ce filtry: cheksum - dodawanie sumy kontrolnej
-  do danych, crop - usuwanie danych spoza podanego zakresu adresów,
-  exclude - usuwanie danych z podanego zakresu adresów, fill -
-  wype³nianie podanego zakresu adresów, length - dodawanie d³ugo¶ci
-  danych, maximum - dodawanie najwiêkszego adresu z danych wej¶ciowych,
-  minimum - dodawanie najmniejszego adresu z danych wej¶ciowych, offset
-  - modyfikowanie adresów o podan± warto¶æ, split - rozdzielanie danych
-  wej¶ciowych na podzbiory.
+- DostÄ™pne sÄ… nastÄ™pujÄ…ce filtry: cheksum - dodawanie sumy kontrolnej
+  do danych, crop - usuwanie danych spoza podanego zakresu adresÃ³w,
+  exclude - usuwanie danych z podanego zakresu adresÃ³w, fill -
+  wypeÅ‚nianie podanego zakresu adresÃ³w, length - dodawanie dÅ‚ugoÅ›ci
+  danych, maximum - dodawanie najwiÄ™kszego adresu z danych wejÅ›ciowych,
+  minimum - dodawanie najmniejszego adresu z danych wejÅ›ciowych, offset
+  - modyfikowanie adresÃ³w o podanÄ… wartoÅ›Ä‡, split - rozdzielanie danych
+  wejÅ›ciowych na podzbiory.
 
-Dla ka¿dego pliku wej¶ciowego mo¿e byæ dodanych po kilka filtrów
-wej¶ciowych. Ka¿dy z filtrów mo¿e byæ stosowany do ka¿dego z formatów
-plików.
+Dla kaÅ¼dego pliku wejÅ›ciowego moÅ¼e byÄ‡ dodanych po kilka filtrÃ³w
+wejÅ›ciowych. KaÅ¼dy z filtrÃ³w moÅ¼e byÄ‡ stosowany do kaÅ¼dego z formatÃ³w
+plikÃ³w.
 
 %prep
 %setup -q
